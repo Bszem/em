@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://vigilant-lewin-de177f.netlify.app/sitemap.xml
