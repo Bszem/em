@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8" />
+  <title>Excuse Maker</title>
+  <link rel = "stylesheet" href = "em.css"/>
+</head>
+  <body>
+    <div class = "i1"><img src = "pinocchio.png" width="10%"></div>
+    <div class ="b1"><h1>Free Excuse Maker</h1></div>
+    <div class ="b2"><h2>Need excuses for being late? <img src = "clock.png"width = "5%"></h2></div>
+    <div class ="b3"><h1>Sorry I am late becasue..</h1></div>
+    
+    <script language="JavaScript">
+      function random_text() {}
+      var random_text = new random_text() 
+      // Set the number of text strings to zero to start
+      var number = 0;
+      // Incremental list of all possible Text
+      random_text[number++] = "There was too much traffic";
+      random_text[number++] = "A lane was closed";
+      random_text[number++] = "A family member was sick";
+      random_text[number++] = "My car broke down";
+      random_text[number++] = "My babysitter let me down";
+      random_text[number++] = "I was stopped by the police";
+      random_text[number++] = "My pet ran away";
+      random_text[number++] = "My water pipes burst";
+      random_text[number++] = "I felt very ill";
+      random_text[number++] = "I lost my bag";
+      random_text[number++] = "The weather was really bad ( Major snowstorms, heavy rain or flooding)";
+      random_text[number++] = "The subway/bus was out of order";
+      random_text[number++] = "I was held up at the doctor's";
+      random_text[number++] = "There's been a death in the family";
+      random_text[number++] = "I was called into school";
+      random_text[number++] = "My house got burgled";
+      random_text[number++] = "I had a car accident";
+      random_text[number++] = "It's personal";
+      random_text[number++] = "I got splashed by a puddle";
+      random_text[number++] = "I lost my car keys";
+      random_text[number++] = "I have bad cramps";
+      random_text[number++] = "I am feeling dizzy since I took a cough syrup or tablet the previous day night";
+      random_text[number++] = "I had difficulty in getting the car out of the garage";
+      random_text[number++] = "I put on the wrong shoes";
+      random_text[number++] = "I missed my purse";
+      random_text[number++] = "I was held up along the highway helping a stranger deliver a baby";
+      random_text[number++] = "I had to get my kids to school ";
+      random_text[number++] = "wardrobe has been stuck";
+      random_text[number++] = "I was locked indoors by their kids by mistake";
+      random_text[number++] = "I walked into a spider web, or garbage or any other dirty listings and I had to go back home for a shower again";
+      random_text[number++] = "I was attacked by animals";
+
+      // Create a random number with limits based on the number
+      // of possible random text strings
+      var random_number = Math.floor(Math.random() * number);
+      // Write out the random text to the browser
+      
+      document.write("<FONT SIZE=72>" + random_text[random_number]);
+    </script>
+
+    <br /><br />
+
+<div class="tooltip"><a href="javascript:history.go(0);"><img src ="replay.png" width = "20%"></a>
+  <span class="tooltiptext">I need another excuse!</span>
+</div>
+
+<div class ="sources">
+  sources:
+  https://content.wisestep.com/excuses-coming-late-work/
+  https://www.careeraddict.com/excuses-late-work
+</div>
+  </body>
+</html>
+
